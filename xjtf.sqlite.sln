@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4B7564D5-1302-4F89-985C-B157EDFF853C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xjtf.AspNetCore.SQLiteResult", "src\Xjtf.AspNetCore.SQLiteResult\Xjtf.AspNetCore.SQLiteResult.csproj", "{CE15BA93-200A-49FF-ABF1-DB7FDA815EC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xjtf.AspNetCore.SQLiteResult.Tests", "src\Xjtf.AspNetCore.SQLiteResult.Tests\Xjtf.AspNetCore.SQLiteResult.Tests.csproj", "{D76CDD08-C812-43ED-877C-095EDE12DF1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DAD3D0F-8246-4DA0-B5B0-0C8422F47837}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE15BA93-200A-49FF-ABF1-DB7FDA815EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE15BA93-200A-49FF-ABF1-DB7FDA815EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE15BA93-200A-49FF-ABF1-DB7FDA815EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE15BA93-200A-49FF-ABF1-DB7FDA815EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76CDD08-C812-43ED-877C-095EDE12DF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76CDD08-C812-43ED-877C-095EDE12DF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76CDD08-C812-43ED-877C-095EDE12DF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76CDD08-C812-43ED-877C-095EDE12DF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE15BA93-200A-49FF-ABF1-DB7FDA815EC4} = {4B7564D5-1302-4F89-985C-B157EDFF853C}
+		{D76CDD08-C812-43ED-877C-095EDE12DF1B} = {4B7564D5-1302-4F89-985C-B157EDFF853C}
+	EndGlobalSection
+EndGlobal
